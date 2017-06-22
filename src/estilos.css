@@ -11,7 +11,7 @@ q:before, q:after { content:''; }
 /*-----FUENTES---*/
 @font-face{
 	font-family: "bau-93";
-	src:url('BAUHS93.ttf');
+	src:url('../BAUHS93.ttf');
 }
 /*-----Fin FUENTES ---*/
 
@@ -29,6 +29,7 @@ body{
 	background-color:#43D2FB;
 	border: solid 2px;
 	text-shadow: #fff 2px 2px 2px;
+	text-overflow: 
 }
 
 #Barra_Menu{
