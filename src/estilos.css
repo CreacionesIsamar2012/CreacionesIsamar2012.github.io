@@ -7,3 +7,14 @@ ol { padding-left: 1.4em; list-style: decimal; }
 ul { padding-left: 1.4em; list-style:square; }
 q:before, q:after { content:''; }
 /*	Fin Reset CSS */
+
+body{
+	font: 18px arial;
+	background-color: #B3EEFF;
+}
+
+#N_Banner{
+	font-size: 4em;
+	background-color:#43D2FB;
+	border: solid 2px;
+}
