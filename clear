@@ -1,0 +1,102 @@
+[33mcommit 4eb26a2022673ce16d9e484e15cd018a2329479d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Fri Jun 23 15:28:18 2017 -0400
+
+    Add seccion acerca de... falta llenar
+
+[33mcommit 7c2bfcd25e41ae45cd810e6ec30a9b67603dc305[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 23:19:48 2017 -0400
+
+    resuelto en un 50% el problema de la fuente del baner
+
+[33mcommit 0d4a2cb6708ee6db7f316ac2ba36d0fc197f5acf[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 23:11:09 2017 -0400
+
+    implementada fuente Comic
+
+[33mcommit ed66abfc81052c48f6f8e2a2b198f72780dc3f16[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 23:09:09 2017 -0400
+
+    Agregada fuente Comic
+
+[33mcommit 142b9c0b7bdecbc6f609a9f53af898d1f614bf11[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 22:49:54 2017 -0400
+
+    buscando error en la fuente del titulo 2
+
+[33mcommit 455097ead8cf3e5f38703a85ec9642f656c95c8f[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 22:34:11 2017 -0400
+
+    buscando error en la fuente del titulo
+
+[33mcommit 0c2b376008eaacf5375b5b028632500c593b94a8[m
+Merge: d6173df 40d0ffa
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 22:00:10 2017 -0400
+
+    Merge branch 'master' of https://github.com/CreacionesIsamar2012/CreacionesIsamar2012.github.io
+
+[33mcommit d6173df98f51adf5d8cb79bc3efe246efd4e62e2[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 21:56:53 2017 -0400
+
+    corregido error de fuente
+
+[33mcommit 40d0ffacf5371acf73ae745c48096578b0e21067[m
+Author: ojoblanco <alexander171296@gmail.com>
+Date:   Thu Jun 22 21:45:57 2017 -0400
+
+    arreglando cambios
+
+[33mcommit c731bb9d9b57a17c0b8b98c93d084afac59829d7[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 19:59:34 2017 -0400
+
+    agregada fuente a la raiz del servidor
+
+[33mcommit 80ba10755751f8a49465595b437db3d2c535e1ca[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 19:50:26 2017 -0400
+
+    modificado baner
+
+[33mcommit 184a9daa91d438131f20362796fda42b92113eec[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 19:32:39 2017 -0400
+
+    agregada etiqueta fuente, ajustado ancho body a 90% eliminado subtitulos de la barra de navegacion
+
+[33mcommit 5a90f16a974985186f2eafadeacdf95f18ba6fd7[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 18:55:15 2017 -0400
+
+    Agregada regla CSS del pie de pagina #piePrincipal
+
+[33mcommit f4740254a27c3672331ff7071f3a2c61f6ccb854[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 18:53:20 2017 -0400
+
+    Agregada regla CSS Body, n_Banner
+
+[33mcommit 058013e7f5f521d9d0e567dfb1a60d4d0abdd6d9[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 18:43:00 2017 -0400
+
+    Completado el esqueleto de la barra de menus
+
+[33mcommit f2d8950ceeeddf8761712aa3c7b2646fcd1f7aa0[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 18:30:37 2017 -0400
+
+    linkeada hoja css con reset de estilos de navegador
+
+[33mcommit 6c4be3d343d8fbdd6d3c07b5f46ef3d27cacab4d[m
+Author: Edson D. Moreno S <diego2816@gmail.com>
+Date:   Thu Jun 22 18:17:52 2017 -0400
+
+    Creado el esquelo HTML
