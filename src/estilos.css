@@ -8,15 +8,42 @@ ul { padding-left: 1.4em; list-style:square; }
 q:before, q:after { content:''; }
 /*	Fin Reset CSS */
 
+/*-----FUENTES---*/
+@font-face{
+	font-family: "bau-93";
+	src:url('BAUHS93.ttf');
+}
+/*-----Fin FUENTES ---*/
+
 body{
 	font: 18px arial;
 	background-color: #B3EEFF;
+	width: 80%;
+	margin:auto;
+	border: solid 1px;
 }
 
 #N_Banner{
+	font-family: "bau-93";
 	font-size: 4em;
 	background-color:#43D2FB;
 	border: solid 2px;
+	text-shadow: #fff 2px 2px 2px;
+}
+
+#Barra_Menu{
+	display: block;
+	padding: 20px;
+	background-color:#43D2FB;
+}
+
+#Barra_Menu ul li{
+	display: inline;
+	padding: 5px;
+}
+
+#Barra_Menu ul li a{
+	text-decoration: none;
 }
 
 #piePrincipal{
