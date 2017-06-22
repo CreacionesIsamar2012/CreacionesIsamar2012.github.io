@@ -33,21 +33,27 @@ body{
 
 #Barra_Menu{
 	display: block;
-	padding: 20px;
 	background-color:#43D2FB;
+	padding: 15px;
 }
 
 #Barra_Menu ul li{
 	display: inline;
-	padding: 5px;
+	padding:15px;
+}
+#Barra_Menu ul li:hover{
+	background-color: #fff;
 }
 
 #Barra_Menu ul li a{
 	text-decoration: none;
 }
 
+
 #piePrincipal{
+	padding: 2px;
 	font-size: 0.8em;
 	background-color:#43D2FB;
 	border: solid 2px;
+	text-align: center;
 }
