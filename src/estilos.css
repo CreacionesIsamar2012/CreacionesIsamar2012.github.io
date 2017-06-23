@@ -10,7 +10,7 @@ q:before, q:after { content:''; }
 
 /*-----FUENTES---*/
 @font-face{
-	font-family: "bau-93";
+	font-family: 'bau-93';
 	src:url('../BAUHS93.ttf');
 }
 /*-----Fin FUENTES ---*/
