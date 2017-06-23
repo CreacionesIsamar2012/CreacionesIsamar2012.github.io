@@ -28,7 +28,7 @@ body{
 }
 
 #N_Banner{
-	font-family: "bau-93", "Comic";
+	font-family: "Comic","bau-93" ;
 	font-size: 4em;
 	background-color:#43D2FB;
 	border: solid 2px;
