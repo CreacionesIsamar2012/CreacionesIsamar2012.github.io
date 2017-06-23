@@ -24,12 +24,11 @@ body{
 }
 
 #N_Banner{
-	font-family: "bau-93";
+	font-family: "bau-93", Helvetica, sans-serif;
 	font-size: 4em;
 	background-color:#43D2FB;
 	border: solid 2px;
 	text-shadow: #fff 2px 2px 2px;
-	text-overflow: 
 }
 
 #Barra_Menu{
