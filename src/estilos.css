@@ -11,7 +11,7 @@ q:before, q:after { content:''; }
 /*-----FUENTES---*/
 @font-face{
 	font-family:'bau-93';
-	src:url('BAUHS93.ttf');
+	src:url('baush93.ttf');
 }
 @font-face{
 	font-family: 'Comic';
@@ -28,7 +28,7 @@ body{
 }
 
 #N_Banner{
-	font-family: "Comic","bau-93" ;
+	font-family: "bau-93","Comic";
 	font-size: 4em;
 	background-color:#43D2FB;
 	border: solid 2px;
