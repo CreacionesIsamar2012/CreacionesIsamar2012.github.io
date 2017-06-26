@@ -29,30 +29,23 @@ body{
 .imagenes{
 	width: 30%;
 	padding: 1%;
-	
     border: 1% solid blue;
-    border-radius: 4%; 
-    
-     float: left;
-     	display: block;
+	border-radius: 4%; 
+    float: left;
+	display: block;
 }
 
 aside{
-   width : 28%;
+	width : 28%;
 	display: block;
-   background:#810000;
-   float: right;
-   padding: 20px;
-   margin: 10px 0px 10px 0px;
-   box-sizing: border-box;
+	background:#810000;
+	float: right;
+	padding: 20px;
+	margin: 10px 0px 10px 0px;
+	box-sizing: border-box;
 }
 .portada{
 	width: 100%;
-	/*font-family: "bau-93","Comic";
-	font-size: 4em;
-	background-color:#43D2FB;
-	border: solid 2px;
-	text-shadow: #fff 2px 2px 2px;*/
 }
 
 #Barra_Menu{
