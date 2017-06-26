@@ -20,60 +20,104 @@ q:before, q:after { content:''; }
 /*-----Fin FUENTES ---*/
 
 body{
-	font: 18px arial;
-	background-color: #B3EEFF;
-	width: 80%;
+	font: 15px  Comic arial ;
+	background-color: white;
+	width: 100%;
 	margin:auto;
-	border: solid 1px;
+	
 }
+.main{
+	 width: 90%;
+	 max-width: 1000px;
+	 margin: 20px auto;
+
+}
+.slides{
+	width: 100%;
+
+}
+.slides img {
+	width: 100%;
+}
+.slidesjs-pagination{
+	background: green;
+	list-style: none;
+	overflow: hidden;
+}
+.slidesjs-pagination li{
+	float: left;
+}
+.slidesjs-pagination li a{
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.slidesjs-pagination li a:hover{
+  background: rgb(10,58,122);
+}
+.slides .active{
+	background: rgb(10,58,122);
+}
+.slidesjs-navigation{
+    background: rgb(10,58,122);
+    color :#fff;
+    text-decoration: none;
+    display :inline-block;
+    padding: 11.2px 20px;
+    float: right;
+
+} 
 .imagenes{
 	width: 30%;
 	padding: 1%;
+	
     border: 1% solid blue;
-	border-radius: 4%; 
-    float: left;
-	display: block;
+    border-radius: 4%; 
+    
+     float: left;
+     	display: block;
 }
-
 aside{
-	width : 28%;
+   width : 28%;
 	display: block;
-	background:#43D2FB;
-	float: right;
-	padding: 20px;
-	margin: 10px 0px 10px 0px;
-	box-sizing: border-box;
+   background: green;
+   float: right;
+   padding: 2% ;
+   margin: 2%;
+   box-sizing: border-box;
 }
 .portada{
 	width: 100%;
+	padding: 0px;
+	/*font-family: "bau-93","Comic";
+	font-size: 4em;
+	background-color:#43D2FB;
+	border: solid 2px;
+	text-shadow: #fff 2px 2px 2px;*/
 }
 
 #Barra_Menu{
 	display: block;
-	background-color:#43D2FB;
-	padding: 15px;
+	background-color:rgb(10,58,122);
+    padding: 10px;
 }
-
 #Barra_Menu ul li{
 	display: inline;
-	padding:15px;
+	padding: 10px;
 }
 #Barra_Menu ul li:hover{
-	background-color: #fff;
-}
-#Barra_Menu ul li a:visited{
-	color: #2E24F9;
+	background-color:green;	
 }
 
 #Barra_Menu ul li a{
+	color: white;
 	text-decoration: none;
 }
-
-
 #piePrincipal{
 	padding: 2px;
 	font-size: 0.8em;
-	background-color:#43D2FB;
+	background-color: rgb(10,58,122);
 	border: solid 2px;
 	text-align: center;
 }

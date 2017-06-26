@@ -5,36 +5,81 @@
 	<meta name="keywords" content="ropa, diseños, tachira, venezuela, uniformes">
 	<title>Creaciones Isamar 2012(R)</title>
 	<link rel="stylesheet" type="text/css" href="src/estilos.css">
+	<link rel="stylesheet" type="text/css" href="fuente.css">
 </head>
+
 <body>
 <!--Cabecera-->
 <header>
 	<!--Menu-->
 	<figure>
-      	  	<img src="biblioteca/Imagenes/PORTADA.png" class="portada">  	  	
-     </figure>
+      	  	<img src="imagenes/PORTADA.png" class="portada">
+      	  	
+      	  </figure>
 	<nav id="Barra_Menu">
 		<ul>
 			<li><a href="#">Inicio</a></li>
 			<li><a href="biblioteca/acerca.html">Acerca de nosotros</a></li>
+			<li><a href="#">Nuestros Productos</a></li>
 			<li><a href="#">Contactenos</a></li>
 		</ul>
 	</nav>
 </header>
 <!--Principal-->
 <section>
+	<div class="main">
+		
+		 <div class="slides">
+	
+      	  	<img src="imagenes/ropa(1).jpg"   >
+      	 
+      	  
+      	  	<img src="imagenes/ropa (2).jpg" >
+      	  	
+      	 		 </div>
+
+	</div>
 	<section id="articulos">
 		<figure>
-      	  	<img src="biblioteca/Imagenes/ropa(1).jpg" class="imagenes">
-      	  	<img src="biblioteca/Imagenes/ropa (2).jpg" class="imagenes">
+      	  	<img src="imagenes/ropa(1).jpg" class="imagenes">
+      	  	
+      	  </figure>
+      	  <figure>
+      	  	<img src="imagenes/ropa (2).jpg" class="imagenes">
+      	  	
       	  </figure>
 	</section>
 </section>
-<!--Barra lateral-->
+
 <aside>
 	<h3>informacion  </h3>
         	<p>Durante la Segunda Guerra Mundial, la fábrica se transformó, como muchas otras, pasando a ser proveedora de la Wehrmacht. Aparte de botas militares, produjeron el famoso Panzerschreck, el lanzagranadas alemán. Rudi fue movilizado, mientras que Adidas permaneció en Alemania. Durante la ocupación estadounidense el negocio volvió a prosperar, gracias a la devoción de estos por el deporte. Fue entonces cuando llamaron a Adi a explicar sus conexiones con el Partido Nazi y las Waffen SS, convenciéndose de que su hermano le había delatado.</p>
 </aside>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.slides.js"></script>
+ <script>
+    $(function(){
+      $(".slides").slidesjs({
+        play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+      });
+    });
+  </script>
 <!--Pie de pagina-->
 <footer id="piePrincipal">
 	<b>Creaciones Isamar 2012(R)<br></b>
