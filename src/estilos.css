@@ -38,7 +38,7 @@ body{
 aside{
 	width : 28%;
 	display: block;
-	background:#810000;
+	background:#43D2FB;
 	float: right;
 	padding: 20px;
 	margin: 10px 0px 10px 0px;
@@ -60,6 +60,9 @@ aside{
 }
 #Barra_Menu ul li:hover{
 	background-color: #fff;
+}
+#Barra_Menu ul li a:visited{
+	color: #2E24F9;
 }
 
 #Barra_Menu ul li a{
