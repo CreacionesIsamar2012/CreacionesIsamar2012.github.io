@@ -22,7 +22,7 @@ q:before, q:after { content:''; }
 body{
 	font: 15px  Comic arial ;
 	background-color: white;
-	width: 100%;
+	width: 90%;
 	margin:auto;
 	
 }
@@ -40,7 +40,7 @@ body{
 	width: 100%;
 }
 .slidesjs-pagination{
-	background: green;
+	background: rgb(10,58,122);
 	list-style: none;
 	overflow: hidden;
 }
@@ -54,10 +54,12 @@ body{
 	text-decoration: none;
 }
 .slidesjs-pagination li a:hover{
-  background: rgb(10,58,122);
+    background: white;
+    color : rgb(10,58,122);
 }
 .slides .active{
-	background: rgb(10,58,122);
+	background: white;
+	color: blue;
 }
 .slidesjs-navigation{
     background: rgb(10,58,122);
@@ -81,11 +83,12 @@ body{
 aside{
    width : 28%;
 	display: block;
-   background: green;
+   background: rgb(10,58,122);;
    float: right;
    padding: 2% ;
    margin: 2%;
    box-sizing: border-box;
+   color: white;
 }
 .portada{
 	width: 100%;
@@ -106,8 +109,11 @@ aside{
 	display: inline;
 	padding: 10px;
 }
-#Barra_Menu ul li:hover{
-	background-color:green;	
+
+#Barra_Menu ul li a:hover{
+	color: rgb(10,58,122);
+	background-color:white;
+	padding: 1%;
 }
 
 #Barra_Menu ul li a{
@@ -123,4 +129,5 @@ aside{
 }
 footer{
    clear :both;
+   color :white;
 }
