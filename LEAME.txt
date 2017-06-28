@@ -1,0 +1,19 @@
+Hoja de Licencia y Convenciones
+-------------------------------------
+CompuMundoHiperMegaRed soluciones
+=====================================
+	Se acuerda usar la ruta "biblioteca/imagenes/" para ubicar
+la primeras imagenes del sitio
+	Se acuerda eliminar el codigo que se crea innecesario
+
+
+:Eliminar o Comentar
+===============================================
+	Si vos deseas eliminar un trozo de codigo es porque
+lo coincidera innecesario, por tanto es util que deje un 
+comentario en un commit de porque elimino el codigo.
+	Si vos comentas un trozo del codigo es porque no sabe
+si sea buena idea eliminarlo y quiera una opinion de otro desarrollador
+de esta prestigiosa empresa, por tanto todo codigo comentado debe ser
+revisado por los demas, si el codigo se comenta solo para pruebas
+Favor informar al correo.
