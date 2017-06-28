@@ -1,13 +1,19 @@
-var vector_imagenes[] = new Array
+var indice=0;
+
+var vector_imagenes= new Array
 (
-	'Imagenes/1-UN.jpg'
-	'Imagenes/2-UN.jpg'
+	'imagenes/1-UN.jpg',
+	'imagenes/2-UN.jpg'
 	);
 
 function CambiarImagen() {
 	// body...
-	var indice = Match.floor((Match.random()*vector_imagenes.length));
-	document.getElementsByTagName('.Visor').src = vector_imagenes[indice];
+//	var indice = Math.floor((Math.random()*vector_imagenes.length));
+	
+	document.getElementById('imagen').src = vector_imagenes[indice];
+	indice++;
+	if(indice >= vector_imagenes.length) indice=0;
+/*	getElementById('testqq')*/
 }
 
 /*
@@ -17,7 +23,7 @@ function Ejecutar() {
 	//Elegimos una imagen
 	CambiarImagen();
 	//Iniciamos la transicion cada 3 segundos
-	setInterval(CambiarImagen,3000);
+	setInterval(CambiarImagen,5000);
 }
 
 //Esto se debe tomar en cuenta al recargar la pagina
