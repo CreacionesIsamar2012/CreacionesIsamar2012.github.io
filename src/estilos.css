@@ -26,15 +26,32 @@ body{
 	margin:auto;
 	
 }
-.main{
-	 width: 90%;
-	 max-width: 1000px;
-	 margin: 20px auto;
-
-}
-.slides{
+#BANER img{
 	width: 100%;
 }
+section aside{
+	width : 29.5%;
+	height: 400px;
+	margin: .5% 0%;
+	float: left;
+	color: #FFFFFF;
+	background-color: rgb(10,58,122);
+}
+
+section aside p{
+	padding: 5px;
+	font-size: 1.2em;
+	font-style: "Comic";
+	text-align: justify;
+}
+
+.main{
+	 width: 70%;
+	 max-width: 1000px;
+	 float: right;	
+	 margin: .5% 0%; 
+}
+
 .slides img {	
 	height: 90%;
 	width: 50%;
@@ -70,30 +87,6 @@ body{
     float: right;
 
 } 
-.imagenes{
-	width: 30%;
-	padding: 1%;
-	
-    border: 1% solid blue;
-    border-radius: 4%; 
-    
-     float: left;
-     	display: block;
-}
-aside{
-   width : 28%;
-	display: block;
-   background: rgb(10,58,122);;
-   float: right;
-   padding: 2% ;
-   margin: 2%;
-   box-sizing: border-box;
-   color: white;
-}
-.portada{
-	width: 100%;
-	padding: 0px;
-}
 
 #Barra_Menu{
 	display: block;
@@ -116,13 +109,11 @@ aside{
 	text-decoration: none;
 }
 #piePrincipal{
+	clear: both;
 	padding: 2px;
-	font-size: 0.8em;
+	font-size: 1em;
 	background-color: rgb(10,58,122);
+	color: #FFFFFF;
 	border: solid 2px;
 	text-align: center;
-}
-footer{
-   clear :both;
-   color :white;
 }

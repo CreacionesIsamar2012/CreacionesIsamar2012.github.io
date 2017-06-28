@@ -17,3 +17,12 @@ si sea buena idea eliminarlo y quiera una opinion de otro desarrollador
 de esta prestigiosa empresa, por tanto todo codigo comentado debe ser
 revisado por los demas, si el codigo se comenta solo para pruebas
 Favor informar al correo.
+
+
+	display: block;
+   background: rgb(10,58,122);;
+   float: right;
+   padding: 2% ;
+   margin: 2%;
+   box-sizing: border-box;
+   color: white;
