@@ -34,11 +34,10 @@ body{
 }
 .slides{
 	width: 100%;
-
 }
-.slides img {
-	
-	height: 100%;
+.slides img {	
+	height: 90%;
+	width: 50%;
 }
 .slidesjs-pagination{
 	background: rgb(10,58,122);
@@ -94,11 +93,6 @@ aside{
 .portada{
 	width: 100%;
 	padding: 0px;
-	/*font-family: "bau-93","Comic";
-	font-size: 4em;
-	background-color:#43D2FB;
-	border: solid 2px;
-	text-shadow: #fff 2px 2px 2px;*/
 }
 
 #Barra_Menu{
