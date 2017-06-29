@@ -29,6 +29,17 @@ body{
 #BANER img{
 	width: 100%;
 }
+#redes_sociales{
+	background-color: white;
+	float: left;
+	width : 28.5%;
+	height: 100px;
+	padding: 5px;
+}
+#redes_sociales a img {
+	padding: 3%;
+
+}
 section aside{
 	width : 29.5%;
 	height: 300px;
