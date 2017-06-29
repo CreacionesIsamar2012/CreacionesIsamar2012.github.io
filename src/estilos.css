@@ -34,11 +34,13 @@ body{
 	float: left;
 	width : 28.5%;
 	height: 100px;
+
 	padding: 5px;
+    
 }
 #redes_sociales a img {
 	padding: 3%;
-
+    margin: 2%;
 }
 section aside{
 	width : 29.5%;
