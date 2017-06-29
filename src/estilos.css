@@ -31,10 +31,11 @@ body{
 }
 section aside{
 	width : 29.5%;
-	height: 400px;
+	height: 300px;
 	margin: .5% 0%;
 	float: left;
 	color: #FFFFFF;
+
 	background-color: rgb(10,58,122);
 }
 a {
@@ -46,7 +47,9 @@ section aside p{
 	font-style: "Comic";
 	text-align: justify;
 }
-
+section aside a img{
+	 width: 20%;
+}
 .main{
 	 width: 70%;
 	 max-width: 1000px;
