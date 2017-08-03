@@ -48,7 +48,6 @@ section aside{
 	margin: .5% 0%;
 	float: left;
 	color: #FFFFFF;
-
 	background-color: rgb(10,58,122);
 }
 a {
@@ -56,7 +55,7 @@ a {
 }
 section aside p{
 	padding: 5px;
-	font-size: 1.2em;
+	font-size: 0.96em;
 	font-style: "Comic";
 	text-align: justify;
 }
